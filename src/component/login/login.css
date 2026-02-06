@@ -1,0 +1,100 @@
+.container .container-log{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container .container-page{
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    height: auto;
+}
+
+.container .container-page h1{
+    font-size: 30px;
+    color: #111827;
+    text-align: center;
+}
+
+.container .container-page input{
+    display: block;
+    margin: 15px 20px;
+    width: 80%;
+    height: 40px;
+    max-width: 340px;
+    padding: 10px;
+    border: 1px solid #dfdfdf;
+    border-radius: 10px;
+    outline: none;
+    color: #111827;
+    font-size: 15px;
+    background-color: #fafafa;
+    transition: all 0.25s ease;
+}
+
+.container .container-page input:focus{
+    border-color: #6366f1;
+    background-color: #fff;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.15);
+}
+
+.container-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.container-btn button{
+    width: 40%;
+    height: 45px;
+    border-radius: 12px;
+    outline: none;
+    border: 1px solid #dfdfdf;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #6366f1;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+.container-btn button:hover{
+    transform: translateY(-2px);
+    background: #4f46e5;
+}
+
+.contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-container .contact{
+    color: #111827;
+    font-weight: 600;
+}
+
+.contact-container .contact:hover{
+     text-decoration: underline;
+}
+
+.account-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.account-container .account{
+    color: #111827;
+    font-weight: 600;
+}
+
+.account-container .account:hover{
+    text-decoration: underline;
+}
